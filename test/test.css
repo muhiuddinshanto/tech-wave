@@ -205,3 +205,43 @@
     border-radius: 24px 24px 0px 0px;
     
 }
+
+body {
+    background-color: black;
+    color: white;
+}
+.sss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.shanto img {
+    animation: mohiuddin 1.9s ease-in-out infinite ;
+    text-align: center;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(15px, 15px);  /* উপরে + ডানে */
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+
+@keyframes mohiuddin {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(15px, 15px);
+    }
+    100% {
+        transform: translateX(0px, 0px);
+    }
+}
