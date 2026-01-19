@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+:root {
+    --primary-gradient: linear-gradient(to right top, #F7E93F, rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+
+    --primary-color: #FFFFFF;
+    --second-color: #00FF88;
+    --fast-section: #1A0B2E;
+    --second-section: #230E3D;
+    --grid-color: rgba(53, 17, 101, 0.4);
+}
+
+/*========================= Shared-Style===================== */
+
+.width {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn {
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: var(--primary-gradient);
+    color: var(--primary-color);
+}
+
+
+
+/* =======================Main-Style=================================== */
+
+/* ===Nav-Releted-Style=== */
+header {
+    background-color: var(--fast-section);
+    color: var(--primary-color);
+    height: 200px;
+}
+nav {
+        border: none;
+        border-bottom: 1px solid #412567;
+}
+.nav-container {
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.nav-logo {
+    font-size: 60px;
+    font-weight: bolder;
+}
+.nav-logo span {
+    background: var(--primary-gradient);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-menu {
+    gap: 32px;
+}
+.nav-link {
+    list-style: none;
+}
+
+/* ===Banner-Releted-style=== */
+.hero-banner {
+    background-image: url(./images/hero-bg.png);
+    height: 760px;
+    background-size: cover;
+    justify-content: center;
+    
+
+    
+}
+.banner-container {
+    flex-direction: column;
+    padding: 100px ;
+    
+       
+}
+
+
+.banner-icon {
+    position: relative;
+    padding-bottom: 40px;
+    text-align: center; 
+    margin-bottom: 240px;
+    
+       
+} 
+
+
+ .top-image {
+    position: relative;
+    z-index: 2;
+    top: 120px;
+    right: 10px;
+   
+}
+
+.base-image {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    width: 400px;
+    /* display: none; */
+
+    
+}
+
+
+
+.banner-content {
+    margin-top: 40px;
+    text-align: center;
+}
+.banner-title {
+    font-size: 60px;
+    font-weight: bolder;
+    color: var(--primary-color);
+    padding-bottom: 8px;
+}
+.banner-text {
+    padding-bottom: 24px;
+} 
+.banner-btn {
+    gap: 8px;
+    justify-content: center;
+}
