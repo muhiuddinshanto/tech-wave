@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.why-choose {
+    background-color: #230E3D;
+}
+
+.why-coose-container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.why-coose-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.audio {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.mobile,
+.global,
+.exclusive {
+    grid-column: span 2;
+}
+
+.audio,
+.mobile,
+.global,
+.exclusive,
+.rich {
+    background-color: rgba(53, 17, 101, 0.4);
+}

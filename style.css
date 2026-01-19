@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
+.hidden {
+    display: none;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -50,12 +55,11 @@
 /* ===Nav-Releted-Style=== */
 header {
     background-color: var(--fast-section);
-    color: var(--primary-color);
-    height: 200px;
 }
 nav {
         border: none;
         border-bottom: 1px solid #412567;
+        color: var(--primary-color);
 }
 .nav-container {
     justify-content: space-between;
@@ -80,67 +84,180 @@ nav {
 }
 
 /* ===Banner-Releted-style=== */
-.hero-banner {
-    background-image: url(./images/hero-bg.png);
-    height: 760px;
+.banner {
+    background-image: url(/images/hero-bg.png);
     background-size: cover;
-    justify-content: center;
-    
-
-    
+    color: #FFFFFF;
 }
 .banner-container {
-    flex-direction: column;
-    padding: 100px ;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
     
-       
+}
+.banner-image {
+    position: relative;
+    text-align: center;
+    justify-content: center;
 }
 
-
-.banner-icon {
-    position: relative;
-    padding-bottom: 40px;
-    text-align: center; 
-    margin-bottom: 240px;
-    
-       
-} 
-
-
- .top-image {
-    position: relative;
-    z-index: 2;
-    top: 120px;
-    right: 10px;
-   
-}
-
-.base-image {
-    position: absolute;
-    top: 10px;
-    left: 60px;
+.base-image img {
     width: 400px;
-    /* display: none; */
+}
+
+.top-image {
+    position: absolute;
+    top: 30%;
+   
 
     
 }
-
-
 
 .banner-content {
-    margin-top: 40px;
     text-align: center;
 }
+
 .banner-title {
     font-size: 60px;
     font-weight: bolder;
-    color: var(--primary-color);
     padding-bottom: 8px;
 }
+
 .banner-text {
+    font-size: 16px;
     padding-bottom: 24px;
-} 
-.banner-btn {
+}
+
+.banner-button {
     gap: 8px;
     justify-content: center;
+}
+
+/* ===About-Releted-style=== */
+
+.about {
+    background-color: var(--fast-section);
+    color: var(--primary-color);
+    padding: 50px 120px;
+}
+
+.about-container {
+    text-align: center;
+}
+
+.about-content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.about-title {
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.about-text {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+.about-mark {
+    justify-content: center;
+    gap: 80px;
+    padding-top: 80px;
+    border-top: 1px solid #412567;
+    align-items: center;
+}
+
+.monthly-title,
+.episode-title,
+.average-title,
+.industy-title
+{
+    color: var(--second-color);
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.monthly-text,
+.episode-text,
+.average-text,
+.industy-text
+{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+/* ===why-choose-releted-style=== */
+.why-choose {
+    background-color: var(--second-section);
+    color: var(--primary-color);
+}
+.why-coose-container {
+    text-align: center;
+    padding: 120px 200px;
+}
+
+.why-coose-container h2 {
+    padding-bottom: 40px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.why-coose-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5
+ {
+    text-align: left;
+    padding: 40px;
+    background-color: var(--grid-color);
+    border: none;
+    border-radius: 40px;
+}
+
+.grid-1 {
+    grid-column: span 1;
+    grid-row: span 2;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.grid-2,
+.grid-3,
+.grid-4
+    {
+    grid-column: span 2;
+}
+
+.why-coose-grid img {
+    padding-bottom: 21px;
+}
+
+.grid-title {
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.grid-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.452);
 }
