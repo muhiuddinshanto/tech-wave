@@ -216,6 +216,7 @@ nav {
     grid-template-rows: repeat(3, 1fr);
     gap: 30px;
 
+
 }
 
 
@@ -260,4 +261,150 @@ nav {
     font-size: 16px;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.452);
+}
+
+
+
+
+/* ===featured-Releted-style== */
+.featured {
+    padding: 120px 200px;
+    background-color: var(--fast-section);
+    color: var(--primary-color);
+}
+
+.episodes-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.video-card-section {
+    gap: 30px;
+    justify-content: center;
+}
+
+.video-card {
+    max-width: 380px;
+    flex-direction: column;
+    gap: 0;
+    
+}
+.video-card img {
+    width: 100%;
+    border-radius: 24px 24px 0px 0px;
+    
+}
+.video-thamb {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.thamb-image img {
+    vertical-align: bottom;
+}
+
+.thamb-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--primary-gradient);
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    color: var(--primary-color);
+    position: absolute;
+    
+}
+.thamb-content {
+     background-color: var(--second-section);
+     color: var(--primary-color);
+     padding: 24px;
+     border: none;
+     border-radius: 0px 0px 24px 24px;
+
+}
+
+.video-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+.video-text {
+    font-size: 12px;
+    line-height: 24px;
+    padding-bottom: 12px;
+    color: rgba(255, 255, 255, 0.77);
+}
+
+.video-time {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--second-color);
+}
+
+
+
+.meet-the-host {
+    color: var(--primary-color);
+    padding-top: 120px;
+    text-align: center;
+    
+}
+.host-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.host-container {
+    padding: 40px;
+    align-items: center;
+    gap: 24px;
+    background-color: var(--second-section);
+    border: none;
+    border-radius: 40px;
+}
+.host-content {
+    text-align: left;
+}
+.host-name {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.host-text {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+    color: rgba(255, 255, 255, 0.77);
+}
+
+.host-social-icon {
+    gap: 8px;
+}
+
+.linkdin,
+.twitter,
+.instagram,
+.youtube
+ {
+    background: var(--primary-gradient);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #412567;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
