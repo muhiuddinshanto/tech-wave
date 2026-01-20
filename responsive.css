@@ -3,11 +3,18 @@
     
 }
 
-
 @media screen and (max-width:576px) {
+.width {
+    width: 95%;
+    margin: 0 auto;
+}
+
   .desktop {
     display: none;
   }
+  .nav-logo {
+    font-size: 40px;
+  } 
   
   /* ===Banner-Releted-style=== */
 .banner {
