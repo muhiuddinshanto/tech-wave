@@ -147,9 +147,12 @@ nav {
     position: absolute;
     top: 30%;
     animation: mohiuddin 2.9s ease-in-out  infinite ;
-   
+}
 
-    
+.frame-image {
+    width: 75px;
+    position: absolute;
+    right: 40%;
 }
 
 .banner-content {

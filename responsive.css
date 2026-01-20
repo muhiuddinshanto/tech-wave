@@ -1,0 +1,339 @@
+.hidden {
+    display: none;
+    
+}
+
+
+@media screen and (max-width:576px) {
+  .desktop {
+    display: none;
+  }
+  
+  /* ===Banner-Releted-style=== */
+.banner {
+    background-image: url(/images/hero-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 35%;
+}
+
+.base-image img {
+    width: 200px;
+}
+
+.top-image img {
+    width: 60px;
+}
+
+.frame-image {
+    width: 75px;
+    position: absolute;
+    right: 25%;
+}
+
+.banner-title {
+    font-size: 40px;
+    padding-top: 24px;
+}
+
+
+/* ===About-Releted-style=== */
+
+.about {
+    padding: 40px 20px;
+}
+
+.about-title {
+    font-size: 32px;
+}
+
+.about-text {
+    line-height: 20px;
+}
+
+.about-content {
+    padding-bottom: 40px;
+    max-width: 100%;
+}
+
+.about-mark {
+    flex-wrap: wrap;
+} 
+
+.monthly-title,
+.episode-title,
+.average-title,
+.industy-title
+{
+    font-size: 40px;
+}
+
+
+/* ===why-choose-releted-style=== */
+.why-coose-container {
+    padding: 40px 20px;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5
+ {
+    text-align: left;
+    padding: 24px;
+    background-color: var(--grid-color);
+    border: none;
+    border-radius: 40px;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5 {
+    grid-column: span 3;
+    grid-row: span 1;
+    padding-top: 30px;
+}
+
+.featured {
+    padding: 40px 20px;
+}
+.episodes-title,
+.host-title {
+    font-size: 32px;
+}
+
+.video-card-section {
+    flex-wrap: wrap;
+}
+.video-title {
+    font-size: 20px;
+}
+
+.host-container {
+    flex-direction: column;
+}
+.host-name {
+    font-size: 24px;
+}
+.host-content {
+    text-align: center;
+}
+.host-social-icon {
+    justify-content: center;
+}
+
+/* ===Footer-Releted-Style=== */
+footer {
+    background-image: url(./images/footer-bg.png);
+    background-color: #230E3D;
+    background-size: 140%;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center 40% ;
+    background-clip: padding-box;
+}
+.footer-container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-icon {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+      .desktop {
+    display: none;
+  }
+  
+  /* ===Banner-Releted-style=== */
+.banner {
+    background-image: url(/images/hero-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 35%;
+}
+
+.base-image img {
+    width: 200px;
+}
+
+.top-image img {
+    width: 60px;
+}
+
+.frame-image {
+    width: 75px;
+    position: absolute;
+    right: 25%;
+}
+
+.banner-title {
+    font-size: 40px;
+    padding-top: 24px;
+}
+
+
+/* ===About-Releted-style=== */
+
+.about {
+    padding: 40px 20px;
+}
+
+.about-title {
+    font-size: 32px;
+}
+
+.about-text {
+    line-height: 20px;
+}
+
+.about-content {
+    padding-bottom: 40px;
+    max-width: 100%;
+}
+
+.about-mark {
+    flex-wrap: wrap;
+} 
+
+.monthly-title,
+.episode-title,
+.average-title,
+.industy-title
+{
+    font-size: 40px;
+}
+
+
+/* ===why-choose-releted-style=== */
+.why-coose-container {
+    padding: 40px 20px;
+}
+
+.why-coose-container {
+    padding: 40px 20px;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5
+ {
+    text-align: left;
+    padding: 24px;
+    background-color: var(--grid-color);
+    border: none;
+    border-radius: 40px;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5 {
+    grid-column: span 3;
+    grid-row: span 1;
+    padding-top: 30px;
+}
+
+
+.featured {
+    padding: 40px 20px;
+}
+.episodes-title,
+.host-title {
+    font-size: 32px;
+}
+
+.video-card-section {
+    flex-wrap: wrap;
+}
+.video-title {
+    font-size: 20px;
+}
+
+.host-container {
+    flex-direction: column;
+}
+.host-name {
+    font-size: 24px;
+}
+.host-content {
+    text-align: center;
+}
+.host-social-icon {
+    justify-content: center;
+}
+
+/* ===Footer-Releted-Style=== */
+footer {
+    background-image: url(./images/footer-bg.png);
+    background-color: #230E3D;
+    background-size: 140%;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center 40% ;
+    background-clip: padding-box;
+}
+.footer-container {
+    padding: 40px 20px;
+}
+
+.footer-icon {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+}
+    
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+   .mobile {
+    display: none;
+   }
+
+   .banner {
+    background-image: url(/images/hero-bg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+   .why-coose-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+.featured {
+    padding: 50px 20px;
+    background-color: var(--fast-section);
+    color: var(--primary-color);
+}
+footer {
+    background-image: url(./images/footer-bg.png);
+    background-color: #230E3D;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+}
+
+@media screen and (min-width:1200px) {
+    .mobile {
+    display: none;
+   }
+}
