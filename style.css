@@ -123,7 +123,7 @@ nav {
 
 /* ===Banner-Releted-style=== */
 .banner {
-    background-image: url(/images/hero-bg.png);
+    background-image: url(./images/hero-bg.png);
     background-size: cover;
     color: #FFFFFF;
 }
